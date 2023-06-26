@@ -44,7 +44,7 @@ body {
     text-decoration: none;
   }
   
-  .section .container {
+  .section1 .container {
     display: flex;
     flex-direction: column;
   }
@@ -93,3 +93,48 @@ body {
   .hero-image img {
     max-width: 100%;
   }
+  .section2 {
+    background-color: #F9FAFE;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .section-title {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .box {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+
+  }
+
+  
+  .box .box-image {
+    display: flex;
+    border: 3px solid #3882F6;
+    border-radius: 13%;
+  
+  }
+  .box img {
+    border-radius: 13%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .description {
+    color: #1F2937;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
