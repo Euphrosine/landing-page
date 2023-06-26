@@ -1,0 +1,95 @@
+body {
+    background-color: #1F2937; 
+    color: #E5E7EB;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  } 
+  
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+  }
+  
+  .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    color: #E5E7EB;
+    text-decoration: none;
+  }
+  
+  .section .container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin-right: 20px;
+  }
+  
+  .hero h2 {
+    color: #F9FAFE;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #3882F6;
+    color: #F9FAFE;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-image {
+    max-width: 50%;
+    align-self: flex-end;
+    margin-left: auto;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+  }
